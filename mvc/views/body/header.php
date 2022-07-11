@@ -16,8 +16,7 @@
 </head>
 
 <body>
-
-<header class="header fixed-top">
+    <header class="header fixed-top">
         <!-- Top header -->
         <div class="top-header d-none d-lg-block">
             <div class="d-flex justify-content-between p-2 bg-success text-white text-uppercase">
@@ -90,9 +89,7 @@
                         <li class="nav-item">
                             <a tabindex="0" class="nav-link fs-4" href="#" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Popover title" data-bs-content="Here's some amazing content.">
                                 <i class="bi bi-cart position-relative">
-                                    <span
-                                        class="position-absolute bottom-0 start-100 translate-middle badge rounded-pill bg-black fw-normal"
-                                        style="font-size: 10px;">
+                                    <span class="position-absolute bottom-0 start-100 translate-middle badge rounded-pill bg-black fw-normal" style="font-size: 10px;">
                                         1
                                     </span>
                                 </i>
