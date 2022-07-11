@@ -120,7 +120,10 @@
                 }
 
                 .nav-link.active {
+<<<<<<< HEAD
                     width: 100px;
+=======
+>>>>>>> main
                     background-color: #27ba7a;
                     color: #fff;
                     transition: all 0.5s ease-in-out;
@@ -353,10 +356,15 @@
     // slick-slide
     .slick-app {
         margin: 1rem 0;
+<<<<<<< HEAD
         display: flex;
 
         .item {
             width: 20%;
+=======
+
+        .item {
+>>>>>>> main
             display: flex;
             flex-direction: column;
             text-align: center;
