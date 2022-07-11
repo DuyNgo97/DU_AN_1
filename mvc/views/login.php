@@ -12,13 +12,14 @@
 </head>
 
 <body>
-    <?php
-        require_once'mvc/views/body/header.php'
-    ?>
+
 
     <div class="container">
         Trang login
     </div>
+    asas
+    sasa
+    asas
 </body>
 
 </html>
