@@ -1,9 +1,9 @@
 <footer class="container-fluid footer p-3">
-        <!-- danh mục -->
-        <div class="row">
+    <!-- danh mục -->
+    <div class="row">
 
-            <div class="col-6 col-sm-6 col-md-3">
-                <div class="title-col">
+        <div class="col-6 col-sm-6 col-md-3">
+            <div class="title-col">
                     CATEGORIES
                 </div>
                 <div class="item-col">
@@ -62,4 +62,14 @@
                 </div>
             </div>
         </div>
-    </footer>
+</footer>
+
+<!-- js -->
+<script type="text/javascript" src="http://localhost/public/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://localhost/public/js/slick.min.js"></script>
+<script type="text/javascript" src="http://localhost/public/js/app.js"></script>
+
+</body>
+
+</html>

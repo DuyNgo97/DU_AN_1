@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://localhost/public/images/logo.png">
+    <title>Trang Chủ</title>
+    <base href="http://localhost/DA1/" target="_blank">
+    <link rel="stylesheet" type="text/css" href="http://localhost/public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost/public/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost/public/css/slick-theme.css">
+    <!-- Boostrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
 <header class="header fixed-top">
         <!-- Top header -->
         <div class="top-header d-none d-lg-block">
@@ -41,7 +60,7 @@
                 </div>
                 <!-- Logo -->
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo-b.png" alt="">
+                    <img src="http://localhost/public/images/logo-b.png" alt="">
                 </a>
                 <!-- Navbar right -->
                 <div class="navbar-right">

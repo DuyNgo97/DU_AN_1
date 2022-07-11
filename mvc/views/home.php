@@ -1,157 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="public/images/logo.png">
-    <title>Trang Chủ</title>
-    <base href="http://localhost/DA1/" target="_blank">
-    <link rel="stylesheet" type="text/css" href="public/css/main.css">
-    <link rel="stylesheet" type="text/css" href="public/css/slick.css">
-    <link rel="stylesheet" type="text/css" href="public/css/slick-theme.css">
-    <!-- Boostrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-</head>
-
-<body>
-    <header class="header fixed-top">
-        <!-- Top header -->
-        <div class="top-header d-none d-lg-block">
-            <div class="d-flex justify-content-between p-2 bg-success text-white text-uppercase">
-                <div class="d-flex gap-3">
-                    <div>Chi nhánh</div>
-                    <div>Theo dõi đơn hàng</div>
-                </div>
-                <div>không ngại va chạm</div>
-                <div class="d-flex gap-3">
-                    <div>Liên hệ</div>
-                    +84 9999999999
-                </div>
-            </div>
-        </div>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-md bg-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- test -->
-                <div class="collapse navbar-collapse navbar-collapse-1">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Cửa Hàng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sản Phẩm</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Page</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Logo -->
-                <a class="navbar-brand" href="#">
-                    <img src="public/images/logo-b.png" alt="">
-                </a>
-                <!-- Navbar right -->
-                <div class="navbar-right">
-                    <ul class="d-flex navbar-nav me-auto mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link fs-4" href="#">
-                                <i class="bi bi-search"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item d-none d-md-block">
-                            <a tabindex="0" class="nav-link fs-4" href="#" data-bs-toggle="popover"
-                                data-bs-placement="top" data-bs-trigger="focus" title="Popover title"
-                                data-bs-content="Here's some amazing content.">
-                                <i class="bi bi-person-fill"></i>
-                            </a>
-                        </li>
-                        <!-- Yêu thích -->
-                        <!-- <li class="nav-item d-none d-md-block">
-                            <a class="nav-link fs-4" href="#">
-                                <i class="bi bi-suit-heart position-relative">
-                                    <span
-                                        class="position-absolute bottom-0 start-100 translate-middle badge rounded-pill bg-black fw-normal"
-                                        style="font-size: 10px;">
-                                        2
-                                    </span>
-                                </i>
-                            </a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a tabindex="0" class="nav-link fs-4" href="#" data-bs-toggle="popover"
-                                data-bs-placement="right" data-bs-trigger="focus" title="Popover title"
-                                data-bs-content="Here's some amazing content.">
-                                <i class="bi bi-cart position-relative">
-                                    <span
-                                        class="position-absolute bottom-0 start-100 translate-middle badge rounded-pill bg-black fw-normal"
-                                        style="font-size: 10px;">
-                                        1
-                                    </span>
-                                </i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Navbar menu -->
-                <div class="collapse navbar-collapse navbar-collapse-2" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Cửa Hàng</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sản Phẩm</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Page</a>
-                        </li>
-                        <li class="nav-item muti-nav">
-                            <div class="box-1">
-                                <a class="nav-link" href="#">
-                                    <i class="bi bi-person-fill"></i> Đăng Nhập
-                                </a>
-                            </div>
-                            |
-                            <div class="box-2">
-                                <a class="nav-link" href="#">
-                                    <i class="bi bi-shield-lock-fill"></i> Đăng Ký
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+    <?php include 'body/header.php' ?>
+    <!-- content -->
     <div class="container-fluid p-0 content">
-
         <!-- images carousel -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="public/images/car_1.jpg" class="d-block w-100" alt="...">
+                    <img src="http://localhost/public/images/car_1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
-                    <img src="public/images/car_2.jpg" class="d-block w-100" alt="...">
+                    <img src="http://localhost/public/images/car_2.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -211,7 +68,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-3 box-item">
                     <div class="card text-start">
-                        <img class="p-3 mx-auto" src="public/images/car-icon.png">
+                        <img class="p-3 mx-auto" src="http://localhost/public/images/car-icon.png">
                         <div class="card-body">
                             <h5 class="card-title">Khám phá những <br> sản phẩm tốt nhất</h5>
                             <p class="card-text">
@@ -223,7 +80,7 @@
                 </div>
                 <div class="col-sm-6 col-md-3 box-item">
                     <div class="card text-start">
-                        <img class="p-3 mx-auto" src="public/images/meter-icon.png" alt="...">
+                        <img class="p-3 mx-auto" src="http://localhost/public/images/meter-icon.png" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Tìm hiểu về hệ thống <br> nâng cao hiệu xuất xe</h5>
                             <p class="card-text">
@@ -235,7 +92,7 @@
                 </div>
                 <div class="col-sm-6 col-md-3 box-item">
                     <div class="card text-start">
-                        <img class="p-3 mx-auto" src="public/images/accessories-icon.png" alt="...">
+                        <img class="p-3 mx-auto" src="http://localhost/public/images/accessories-icon.png" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Get accessories for <br> all cars</h5>
                             <p class="card-text">
@@ -247,7 +104,7 @@
                 </div>
                 <div class="col-sm-6 col-md-3 box-item">
                     <div class="card text-start">
-                        <img class="p-3 mx-auto" src="public/images/wheel-icon.png" alt="...">
+                        <img class="p-3 mx-auto" src="http://localhost/public/images/wheel-icon.png" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Get accessories for <br> all cars</h5>
                             <p class="card-text">
@@ -299,7 +156,7 @@
                                     </a>
                                 </div>
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -313,7 +170,7 @@
                             </div>
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -327,7 +184,7 @@
                             </div>
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -347,7 +204,7 @@
                         <div class="row">
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -361,7 +218,7 @@
                             </div>
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -375,7 +232,7 @@
                             </div>
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -395,7 +252,7 @@
                         <div class="row">
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -409,7 +266,7 @@
                             </div>
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -423,7 +280,7 @@
                             </div>
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -443,7 +300,7 @@
                         <div class="row">
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -457,7 +314,7 @@
                             </div>
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="public/images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -471,7 +328,7 @@
                             </div>
                             <div class="col-4 box-item">
                                 <div class="thumnail-sp">
-                                    <img src="images/den-bi-xenon4.jpg" width="80%" alt="">
+                                    <img src="http://localhost/images/den-bi-xenon4.jpg" width="80%" alt="">
                                 </div>
                                 <div class="name-sp">Đèn ô tô</div>
                                 <div class="price-sp">1.300.000 VNĐ</div>
@@ -504,7 +361,7 @@
                 <div class="row box">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-5 position-relative box-1">
                         <div class="img text-start">
-                            <img class="rounded-3" src="public/images/collection-img1.webp" alt="">
+                            <img class="rounded-3" src="http://localhost/public/images/collection-img1.webp" alt="">
                         </div>
                         <div class="detail detail-1 position-absolute">
                             <h2>Lựa chọn <br> hoàn hảo</h2>
@@ -513,7 +370,7 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-5 position-relative box-2">
                         <div class="img text-end">
-                            <img class="rounded-3" src="public/images/collection-img2.webp" alt="">
+                            <img class="rounded-3" src="http://localhost/public/images/collection-img2.webp" alt="">
                         </div>
                         <div class="detail detail-2 position-absolute">
                             <h2>Mặt hàng <br> mới nhất</h2>
@@ -527,27 +384,27 @@
         <!-- slick slide-->
         <div class="slick-app test">
             <div class="item">
-                <img src="public/images/icon-parts.png" alt="">
+                <img src="http://localhost/public/images/icon-parts.png" alt="">
                 <span>Phụ tùng</span>
                 <a class="btn" href="#">Xem Ngay</a>
             </div>
             <div class="item">
-                <img src="public/images/icon-interior.png" alt="">
+                <img src="http://localhost/public/images/icon-interior.png" alt="">
                 <span>Nội thất</span>
                 <a class="btn" href="#">Xem Ngay</a>
             </div>
             <div class="item">
-                <img src="public/images/icon-exterior.png" alt="">
+                <img src="http://localhost/public/images/icon-exterior.png" alt="">
                 <span>Ngoại thất</span>
                 <a class="btn" href="#">Xem Ngay</a>
             </div>
             <div class="item">
-                <img src="public/images/icon-lighting.png" alt="">
+                <img src="http://localhost/public/images/icon-lighting.png" alt="">
                 <span>Đèn</span>
                 <a class="btn" href="#">Xem Ngay</a>
             </div>
             <div class="item">
-                <img src="public/images/icon-wheels.png" alt="">
+                <img src="http://localhost/public/images/icon-wheels.png" alt="">
                 <span>Bánh xe</span>
                 <a class="btn" href="#">Xem Ngay</a>
             </div>
@@ -561,7 +418,7 @@
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 box-item">
                     <div class="thumnail-sp">
-                        <img src="public/images/den-bi-xenon4.jpg" width="100%" alt="">
+                        <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="100%" alt="">
                     </div>
                     <div class="name-sp">Đèn ô tô</div>
                     <div class="price-sp">1.300.000 VNĐ</div>
@@ -575,7 +432,7 @@
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 box-item">
                     <div class="thumnail-sp">
-                        <img src="public/images/den-bi-xenon4.jpg" width="100%" alt="">
+                        <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="100%" alt="">
                     </div>
                     <div class="name-sp">Đèn ô tô</div>
                     <div class="price-sp">1.300.000 VNĐ</div>
@@ -589,7 +446,7 @@
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 box-item">
                     <div class="thumnail-sp">
-                        <img src="public/images/den-bi-xenon4.jpg" width="100%" alt="">
+                        <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="100%" alt="">
                     </div>
                     <div class="name-sp">Đèn ô tô</div>
                     <div class="price-sp">1.300.000 VNĐ</div>
@@ -603,7 +460,7 @@
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3 box-item">
                     <div class="thumnail-sp">
-                        <img src="public/images/den-bi-xenon4.jpg" width="100%" alt="">
+                        <img src="http://localhost/public/images/den-bi-xenon4.jpg" width="100%" alt="">
                     </div>
                     <div class="name-sp">Đèn ô tô</div>
                     <div class="price-sp">1.300.000 VNĐ</div>
@@ -621,13 +478,13 @@
         <!-- Banner Quảng Cáo -->
         <div class="banner d-flex justify-content-between gap-3">
             <div>
-                <img src="public/images/725x560-1.webp" width="100%" alt="">
+                <img src="http://localhost/public/images/725x560-1.webp" width="100%" alt="">
             </div>
             <div>
-                <img src="public/images/410x560.webp" width="100%" alt="">
+                <img src="http://localhost/public/images/410x560.webp" width="100%" alt="">
             </div>
             <div>
-                <img src="public/images/725x560-2.webp" width="100%" alt="">
+                <img src="http://localhost/public/images/725x560-2.webp" width="100%" alt="">
             </div>
         </div>
 
@@ -641,7 +498,7 @@
                 <div class="card col-sm-6 col-md-4 col-lg-4">
                     <div class="content-post">
                         <div class="test-img-1">
-                            <img src="public/images/blog-1.jpg" class="card-img-top img-fluid" alt="...">
+                            <img src="http://localhost/public/images/blog-1.jpg" class="card-img-top img-fluid" alt="...">
                         </div>
                         <div class="card-body">
                             <div class="car-body-title">
@@ -668,7 +525,7 @@
                 <div class="card col-12 col-sm-6 col-md-4 col-lg-4">
                     <div class="content-post">
                         <div class="test-img-1">
-                            <img src="public/images/blog-2.jpg" class="card-img-top img-fluid" alt="...">
+                            <img src="http://localhost/public/images/blog-2.jpg" class="card-img-top img-fluid" alt="...">
                         </div>
                         <div class="card-body">
                             <div class="car-body-title">
@@ -695,7 +552,7 @@
                 <div class="card col-sm-6 col-md-4 col-lg-4">
                     <div class="content-post">
                         <div class="test-img-1">
-                            <img src="public/images/blog-3.jpg" class="card-img-top img-fluid" alt="...">
+                            <img src="http://localhost/public/images/blog-3.jpg" class="card-img-top img-fluid" alt="...">
                         </div>
                         <div class="card-body">
                             <div class="car-body-title">
@@ -726,7 +583,7 @@
         <div class="subscrible p-3">
             <div class="row sub-content-g">
                 <div class="col-sm-12 col-md-6 thumb-img">
-                    <img src="public/images/sub.jpg" alt="">
+                    <img src="http://localhost/public/images/sub.jpg" alt="">
                 </div>
                 <div class="sub-content col-sm-12 col-md-6">
                     <h2>
@@ -763,78 +620,9 @@
 
     </div>
 
-    <footer class="container-fluid footer p-3">
-        <!-- danh mục -->
-        <div class="row">
+    <?php include 'body/footer.php' ?>
 
-            <div class="col-6 col-sm-6 col-md-3">
-                <div class="title-col">
-                    CATEGORIES
-                </div>
-                <div class="item-col">
-                    <a href="#">INTERIOR</a>
-                    <a href="#">EXTERIOR</a>
-                    <a href="#">LIGHTING</a>
-                    <a href="#">PERFORMANCE</a>
-                    <a href="#">WHEELS & TIRES</a>
-                </div>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3">
-                <div class="title-col">
-                    CUSTOMER
-                </div>
-                <div class="item-col">
-                    <a href="#">About us</a>
-                    <a href="#">Contact us</a>
-                    <a href="#">Payment pocily</a>
-                    <a href="#">My cart</a>
-                    <a href="#">Wishlist</a>
-                </div>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3">
-                <div class="title-col">
-                    FOLLOW US
-                </div>
-                <div class="item-col">
-                    <a href="#">Instagram</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Linkedin</a>
-                    <a href="#">Google +</a>
-                </div>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3">
-                <div class="title-col">
-                    CONTACT INFO
-                </div>
-                <div class="item-col">
-                    <span>
-                        Phone:
-                        <a href="tel:123333333">
-                            +84 111222333
-                        </a>
-                    </span>
-                    <span>
-                        Email:
-                        <a href="mail:111222333@gmail.com">
-                            info@shore.com
-                        </a>
-                    </span>
-                    <span>
-                        401 BROADWAY, 24TH FLOOR
-                        ORCHARD VIEW, LONDON, UK
-                    </span>
-                </div>
-            </div>
-        </div>
-    </footer>
 
-    <!-- js -->
-    <script type="text/javascript" src="public/js/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="public/js/slick.min.js"></script>
-    <script type="text/javascript" src="public/js/app.js"></script>
 
-</body>
 
-</html>
+
