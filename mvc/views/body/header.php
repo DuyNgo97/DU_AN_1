@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="http://localhost/public/images/logo.png">
     <title>Trang Chủ</title>
-    <base href="http://localhost/DA1/" target="_blank">
+    <base href="http://localhost/">
     <link rel="stylesheet" type="text/css" href="http://localhost/public/css/main.css">
     <link rel="stylesheet" type="text/css" href="http://localhost/public/css/slick.css">
     <link rel="stylesheet" type="text/css" href="http://localhost/public/css/slick-theme.css">
