@@ -12,9 +12,7 @@
 </head>
 
 <body>
-    <?php
-        require_once'mvc/views/body/header.php'
-    ?>
+    <?php require_once 'mvc/views/body/header.php' ?>
 
     <div class="container">
         Trang login 1
