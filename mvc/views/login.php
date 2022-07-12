@@ -8,15 +8,11 @@
     <link rel="icon" href="public/images/logo.png">
     <base href="http://localhost/DA1/" target="_blank">
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 
 <body>
-    <?php
-        require_once'mvc/views/body/header.php'
-    ?>
-
-    <div class="container">
+    <div class="content">
         Trang login 1
     </div>
 </body>
