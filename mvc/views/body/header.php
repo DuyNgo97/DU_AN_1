@@ -16,9 +16,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md bg-light">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- test -->
@@ -43,7 +41,7 @@
             </div>
             <!-- Logo -->
             <a class="navbar-brand" href="#">
-                <img src="public/images/logo-b.png" alt="">
+                <img src="/public/images/logo-b.png" alt="">
             </a>
             <!-- Navbar right -->
             <div class="navbar-right">
@@ -54,9 +52,7 @@
                         </a>
                     </li>
                     <li class="nav-item d-none d-md-block">
-                        <a tabindex="0" class="nav-link fs-4" href="#" data-bs-toggle="popover" data-bs-placement="top"
-                            data-bs-trigger="focus" title="Popover title"
-                            data-bs-content="Here's some amazing content.">
+                        <a tabindex="0" class="nav-link fs-4" href="#" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="focus" title="Popover title" data-bs-content="Here's some amazing content.">
                             <i class="bi bi-person-fill"></i>
                         </a>
                     </li>
@@ -73,13 +69,9 @@
                             </a>
                         </li> -->
                     <li class="nav-item">
-                        <a tabindex="0" class="nav-link fs-4" href="#" data-bs-toggle="popover"
-                            data-bs-placement="right" data-bs-trigger="focus" title="Popover title"
-                            data-bs-content="Here's some amazing content.">
+                        <a tabindex="0" class="nav-link fs-4" href="#" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Popover title" data-bs-content="Here's some amazing content.">
                             <i class="bi bi-cart position-relative">
-                                <span
-                                    class="position-absolute bottom-0 start-100 translate-middle badge rounded-pill bg-black fw-normal"
-                                    style="font-size: 10px;">
+                                <span class="position-absolute bottom-0 start-100 translate-middle badge rounded-pill bg-black fw-normal" style="font-size: 10px;">
                                     1
                                 </span>
                             </i>
