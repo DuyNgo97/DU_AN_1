@@ -9,9 +9,9 @@
     <title>Trang Chủ</title>
     <base href="http://localhost/da1/" target="_blank">
     <link rel="icon" href="public/images/logo.png">
-    <link rel="stylesheet" type="text/css" href="public/css/main.css">
-    <link rel="stylesheet" type="text/css" href="public/css/slick.css">
-    <link rel="stylesheet" type="text/css" href="public/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/slick-theme.css">
     <!-- Boostrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
